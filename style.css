@@ -33,6 +33,7 @@ ul{
     background-image: url(https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png);
     background-repeat: no-repeat;
     background-position: center bottom;
+    position: relative;
 }
 
 .course-item:hover{
@@ -46,4 +47,16 @@ ul{
 
 .course-item:first-child:hover{
     border-top-color: gray;
+}
+
+.course-item span{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
